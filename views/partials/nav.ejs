@@ -1,0 +1,22 @@
+</head>
+<body>
+  <nav>
+    <i>
+      <img style="height: 1rem" src="/assets/plane-solid.svg" />
+    </i>
+    <a 
+			href="/meals/new"
+			class=<%= title === 'Add Meal' ? 'active' : '' %>
+		>
+			Add Meal
+    <a 
+      href="/flights/new" class=<%= title === 'Add Flights' ? 'active' : '' %>
+    >
+      Add Flights
+    </a>
+    <a 
+    href="/flights" class=<%= title === 'All Flights' ? 'active' : '' %>
+  >
+    All Flights
+  </a>
+  </nav>
